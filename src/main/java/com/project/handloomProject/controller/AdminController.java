@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class AdminController {
 
     private static final String ADMIN_USERNAME = "admin";
-    private static final String ADMIN_PASSWORD = "admin123";
+    private static final String ADMIN_PASSWORD = "admin";
 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody AdminLoginRequest request) {
